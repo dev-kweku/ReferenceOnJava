@@ -20,6 +20,7 @@ public class Account implements TransactionProtocol {
         this.owner=owner;
         this.balance=initialBalance;
     }
+    public  String getOwner(){return owner;}
 
     public double getBalance(){
         return  balance;
